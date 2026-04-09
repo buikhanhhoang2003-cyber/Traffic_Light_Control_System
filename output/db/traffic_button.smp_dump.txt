@@ -1,0 +1,53 @@
+
+State Machine - |traffic_light_top|direction_sm:u_west|state
+Name state.SM3_STRA_YELL state.SM3_STRA_GREEN state.SM3_WAIT_OPP state.SM2_PED_FLASH state.SM2_PED_SOLID state.SM1_LEFT_YELL state.SM1_LEFT_GREEN state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 0 
+state.SM1_LEFT_GREEN 0 0 0 0 0 0 1 1 
+state.SM1_LEFT_YELL 0 0 0 0 0 1 0 1 
+state.SM2_PED_SOLID 0 0 0 0 1 0 0 1 
+state.SM2_PED_FLASH 0 0 0 1 0 0 0 1 
+state.SM3_WAIT_OPP 0 0 1 0 0 0 0 1 
+state.SM3_STRA_GREEN 0 1 0 0 0 0 0 1 
+state.SM3_STRA_YELL 1 0 0 0 0 0 0 1 
+
+State Machine - |traffic_light_top|direction_sm:u_east|state
+Name state.SM3_STRA_YELL state.SM3_STRA_GREEN state.SM3_WAIT_OPP state.SM2_PED_FLASH state.SM2_PED_SOLID state.SM1_LEFT_YELL state.SM1_LEFT_GREEN state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 0 
+state.SM1_LEFT_GREEN 0 0 0 0 0 0 1 1 
+state.SM1_LEFT_YELL 0 0 0 0 0 1 0 1 
+state.SM2_PED_SOLID 0 0 0 0 1 0 0 1 
+state.SM2_PED_FLASH 0 0 0 1 0 0 0 1 
+state.SM3_WAIT_OPP 0 0 1 0 0 0 0 1 
+state.SM3_STRA_GREEN 0 1 0 0 0 0 0 1 
+state.SM3_STRA_YELL 1 0 0 0 0 0 0 1 
+
+State Machine - |traffic_light_top|direction_sm:u_south|state
+Name state.SM3_STRA_YELL state.SM3_STRA_GREEN state.SM3_WAIT_OPP state.SM2_PED_FLASH state.SM2_PED_SOLID state.SM1_LEFT_YELL state.SM1_LEFT_GREEN state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 0 
+state.SM1_LEFT_GREEN 0 0 0 0 0 0 1 1 
+state.SM1_LEFT_YELL 0 0 0 0 0 1 0 1 
+state.SM2_PED_SOLID 0 0 0 0 1 0 0 1 
+state.SM2_PED_FLASH 0 0 0 1 0 0 0 1 
+state.SM3_WAIT_OPP 0 0 1 0 0 0 0 1 
+state.SM3_STRA_GREEN 0 1 0 0 0 0 0 1 
+state.SM3_STRA_YELL 1 0 0 0 0 0 0 1 
+
+State Machine - |traffic_light_top|direction_sm:u_north|state
+Name state.SM3_STRA_YELL state.SM3_STRA_GREEN state.SM3_WAIT_OPP state.SM2_PED_FLASH state.SM2_PED_SOLID state.SM1_LEFT_YELL state.SM1_LEFT_GREEN state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 0 
+state.SM1_LEFT_GREEN 0 0 0 0 0 0 1 1 
+state.SM1_LEFT_YELL 0 0 0 0 0 1 0 1 
+state.SM2_PED_SOLID 0 0 0 0 1 0 0 1 
+state.SM2_PED_FLASH 0 0 0 1 0 0 0 1 
+state.SM3_WAIT_OPP 0 0 1 0 0 0 0 1 
+state.SM3_STRA_GREEN 0 1 0 0 0 0 0 1 
+state.SM3_STRA_YELL 1 0 0 0 0 0 0 1 
+
+State Machine - |traffic_light_top|sm0_coordinator:u_sm0|state
+Name state.S_HALT state.S_EW_SWITCH state.S_EW_ACTIVE state.S_NS_SWITCH state.S_NS_ACTIVE state.S_INIT 
+state.S_INIT 0 0 0 0 0 0 
+state.S_NS_ACTIVE 0 0 0 0 1 1 
+state.S_NS_SWITCH 0 0 0 1 0 1 
+state.S_EW_ACTIVE 0 0 1 0 0 1 
+state.S_EW_SWITCH 0 1 0 0 0 1 
+state.S_HALT 1 0 0 0 0 1 

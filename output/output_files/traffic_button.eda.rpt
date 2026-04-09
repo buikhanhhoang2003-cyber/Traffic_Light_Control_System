@@ -1,0 +1,316 @@
+EDA Netlist Writer report for traffic_button
+Fri Apr 10 04:15:34 2026
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. Simulation Settings
+  4. Simulation Generated Files
+  5. Board-Level Settings
+  6. Board-Level Generated Files
+  7. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                                    ;
++---------------------------------------+---------------------------------------+
+; EDA Netlist Writer Status             ; Successful - Fri Apr 10 04:15:34 2026 ;
+; Revision Name                         ; traffic_button                        ;
+; Top-level Entity Name                 ; traffic_light_top                     ;
+; Family                                ; Cyclone IV E                          ;
+; Simulation Files Creation             ; Successful                            ;
+; Board Signal Integrity Files Creation ; Successful                            ;
+; Board Timing Analysis Files Creation  ; Successful                            ;
+; Board Boundary Scan Files Creation    ; Successful                            ;
++---------------------------------------+---------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                           ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Option                                                                                            ; Setting                   ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
+; Generate functional simulation netlist                                                            ; On                        ;
+; Truncate long hierarchy paths                                                                     ; Off                       ;
+; Map illegal HDL characters                                                                        ; Off                       ;
+; Flatten buses into individual nodes                                                               ; Off                       ;
+; Maintain hierarchy                                                                                ; Off                       ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off                       ;
+; Enable glitch filtering                                                                           ; Off                       ;
+; Do not write top level VHDL entity                                                                ; Off                       ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                       ;
+; Architecture name in VHDL output netlist                                                          ; structure                 ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                       ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off                       ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                ;
++-----------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                           ;
++-----------------------------------------------------------------------------------------------------------+
+; /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/simulation/modelsim/traffic_button.vo ;
++-----------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------+
+; Board-Level Settings                    ;
++-------------------------------+---------+
+; Option                        ; Setting ;
++-------------------------------+---------+
+; Board Signal Integrity Format ; HSPICE  ;
+; Board Timing Analysis Format  ; STAMP   ;
+; Board Boundary Scan Format    ; BSDL    ;
++-------------------------------+---------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board-Level Generated Files                                                                                                                                                                                         ;
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                                                                                                                     ;
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Signal Integrity                                                                                                                                                                                              ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_128_svnseg_seg_0__out.sp                                                                                                ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_121_svnseg_seg_1__out.sp                                                                                                ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_125_svnseg_seg_2__out.sp                                                                                                ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_129_svnseg_seg_3__out.sp                                                                                                ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_132_svnseg_seg_4__out.sp                                                                                                ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_126_svnseg_seg_5__out.sp                                                                                                ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_124_svnseg_seg_6__out.sp                                                                                                ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_127_svnseg_seg_7__out.sp                                                                                                ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_34_n_r_left_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_32_n_y_left_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_30_n_g_left_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_52_n_r_ped_out.sp                                                                                                       ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_84_n_g_ped_out.sp                                                                                                       ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_33_n_r_stra_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_31_n_y_stra_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_28_n_g_stra_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_112_s_r_left_out.sp                                                                                                     ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_113_s_y_left_out.sp                                                                                                     ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_141_s_g_left_out.sp                                                                                                     ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_100_s_r_ped_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_85_s_g_ped_out.sp                                                                                                       ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_119_s_r_stra_out.sp                                                                                                     ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_120_s_y_stra_out.sp                                                                                                     ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_55_s_g_stra_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_60_e_r_left_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_65_e_y_left_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_111_e_g_left_out.sp                                                                                                     ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_53_e_r_ped_out.sp                                                                                                       ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_86_e_g_ped_out.sp                                                                                                       ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_64_e_r_stra_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_59_e_y_stra_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_80_e_g_stra_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_73_w_r_left_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_71_w_y_left_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_69_w_g_left_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_99_w_r_ped_out.sp                                                                                                       ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_87_w_g_ped_out.sp                                                                                                       ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_72_w_r_stra_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_70_w_y_stra_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_68_w_g_stra_out.sp                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_144_system_fault_led_out.sp                                                                                             ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_133_dig_dip_0__out.sp                                                                                                   ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_133_dig_dip_0__in.sp                                                                                                    ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_135_dig_dip_1__out.sp                                                                                                   ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_135_dig_dip_1__in.sp                                                                                                    ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_136_dig_dip_2__out.sp                                                                                                   ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_136_dig_dip_2__in.sp                                                                                                    ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_137_dig_dip_3__out.sp                                                                                                   ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_137_dig_dip_3__in.sp                                                                                                    ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_23_clk_in.sp                                                                                                            ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_24_rst_n_in.sp                                                                                                          ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_138_io_mode_in.sp                                                                                                       ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_103_cfg_data_0__in.sp                                                                                                   ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_106_cfg_addr_3__in.sp                                                                                                   ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_110_cfg_we_in.sp                                                                                                        ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_83_cfg_addr_1__in.sp                                                                                                    ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_88_cfg_addr_2__in.sp                                                                                                    ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_89_cfg_addr_0__in.sp                                                                                                    ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_105_cfg_data_7__in.sp                                                                                                   ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_90_cfg_data_6__in.sp                                                                                                    ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_91_cfg_data_5__in.sp                                                                                                    ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_114_cfg_data_4__in.sp                                                                                                   ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_115_cfg_data_3__in.sp                                                                                                   ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_104_cfg_data_2__in.sp                                                                                                   ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_98_cfg_data_1__in.sp                                                                                                    ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_6__altera_asdo_data1__in.sp                                                                                             ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_8__altera_flash_nce_ncso__in.sp                                                                                         ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_12__altera_dclk__out.sp                                                                                                 ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_13__altera_data0__in.sp                                                                                                 ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_101__altera_nceo__out.sp                                                                                                ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/lib/output_delay_control.lib                                                                                                   ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/lib/slew_rate.lib                                                                                                              ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/lib/package.lib                                                                                                                ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/lib/drive_select_lvds.lib                                                                                                      ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/cir/vio_diff_buffer.inc                                                                                                        ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/cir/vio_buffer.inc                                                                                                             ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/cir/hio_buffer.inc                                                                                                             ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/cir/hio_deddiff_buffer.inc                                                                                                     ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/cir/hio_diff_buffer.inc                                                                                                        ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/lib/cive_ss.inc                                                                                                                ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/lib/cive_tt.inc                                                                                                                ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/lib/cive_ff.inc                                                                                                                ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/lib/drive_select_hio.lib                                                                                                       ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/lib/drive_select_vio.lib                                                                                                       ;
+; Board Timing Analysis                                                                                                                                                                                               ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//traffic_button_8_1200mv_85c_board_slow.mod   ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//traffic_button_8_1200mv_85c_board_slow.data  ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//traffic_button_8_1200mv_0c_board_slow.mod    ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//traffic_button_8_1200mv_0c_board_slow.data   ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//traffic_button_min_1200mv_0c_board_fast.mod  ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//traffic_button_min_1200mv_0c_board_fast.data ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//traffic_button_board.mod                     ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//traffic_button_board.data                    ;
+; Board Boundary Scan                                                                                                                                                                                                 ;
+;     /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/bsd/EP4CE6E22C8_pre.bsd                                                                                                               ;
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Fri Apr 10 04:15:34 2026
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off traffic_button -c traffic_button
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (204019): Generated file traffic_button.vo in folder "/home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/simulation/modelsim/" for EDA simulation tool
+Info (199047): Generated files "/home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//traffic_button_8_1200mv_85c_board_slow.mod" and "/home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//traffic_button_8_1200mv_85c_board_slow.data"
+Info (199047): Generated files "/home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//traffic_button_8_1200mv_0c_board_slow.mod" and "/home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//traffic_button_8_1200mv_0c_board_slow.data"
+Info (199047): Generated files "/home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//traffic_button_min_1200mv_0c_board_fast.mod" and "/home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//traffic_button_min_1200mv_0c_board_fast.data"
+Info (199047): Generated files "/home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//traffic_button_board.mod" and "/home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/timing/stamp//traffic_button_board.data"
+Info (199053): Generated 84 HSPICE Output files for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_128_svnseg_seg_0__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_121_svnseg_seg_1__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_125_svnseg_seg_2__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_129_svnseg_seg_3__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_132_svnseg_seg_4__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_126_svnseg_seg_5__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_124_svnseg_seg_6__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_127_svnseg_seg_7__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_34_n_r_left_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_32_n_y_left_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_30_n_g_left_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_52_n_r_ped_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_84_n_g_ped_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_33_n_r_stra_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_31_n_y_stra_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_28_n_g_stra_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_112_s_r_left_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_113_s_y_left_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_141_s_g_left_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_100_s_r_ped_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_85_s_g_ped_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_119_s_r_stra_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_120_s_y_stra_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_55_s_g_stra_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_60_e_r_left_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_65_e_y_left_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_111_e_g_left_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_53_e_r_ped_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_86_e_g_ped_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_64_e_r_stra_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_59_e_y_stra_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_80_e_g_stra_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_73_w_r_left_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_71_w_y_left_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_69_w_g_left_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_99_w_r_ped_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_87_w_g_ped_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_72_w_r_stra_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_70_w_y_stra_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_68_w_g_stra_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_144_system_fault_led_out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_133_dig_dip_0__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_133_dig_dip_0__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_135_dig_dip_1__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_135_dig_dip_1__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_136_dig_dip_2__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_136_dig_dip_2__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_137_dig_dip_3__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_137_dig_dip_3__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_23_clk_in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_24_rst_n_in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_138_io_mode_in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_103_cfg_data_0__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_106_cfg_addr_3__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_110_cfg_we_in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_83_cfg_addr_1__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_88_cfg_addr_2__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_89_cfg_addr_0__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_105_cfg_data_7__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_90_cfg_data_6__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_91_cfg_data_5__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_114_cfg_data_4__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_115_cfg_data_3__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_104_cfg_data_2__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_98_cfg_data_1__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_6__altera_asdo_data1__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_8__altera_flash_nce_ncso__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_12__altera_dclk__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_13__altera_data0__in.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/ep4ce6_101__altera_nceo__out.sp for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/lib/output_delay_control.lib for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/lib/slew_rate.lib for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/lib/package.lib for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/lib/drive_select_lvds.lib for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/cir/vio_diff_buffer.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/cir/vio_buffer.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/cir/hio_buffer.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/cir/hio_deddiff_buffer.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/cir/hio_diff_buffer.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/lib/cive_ss.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/lib/cive_tt.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/lib/cive_ff.inc for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/lib/drive_select_hio.lib for board level analysis
+    Info (199051): Generated HSPICE Output File /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/hspice/lib/drive_select_vio.lib for board level analysis
+Info: TOTAL BSCAN REGISTERS IS 201
+Info: TOTAL IO PAD COUNT IS 193
+Warning: New Pin Type UDCLK
+Warning: New Pin Type Dedicated Clock
+Warning: New Pin Type Dedicated Clock
+Warning: New Pin Type Dedicated Clock
+Warning: New Pin Type Dedicated Clock
+Warning: New Pin Type Dedicated Clock
+Warning: New Pin Type Dedicated Clock
+Warning: New Pin Type Dedicated Clock
+Warning: New Pin Type Dedicated Clock
+Info: EP4CE6E22 has 201 JTAG SEQUENCE AVAILABLE
+Info (199065): Generated Boundary-Scan Description Language output file /home/hoangbuikhanh/WORKSPACE/traffic_control_system_buttons/output/board/bsd/EP4CE6E22C8_pre.bsd for board-level analysis
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 10 warnings
+    Info: Peak virtual memory: 619 megabytes
+    Info: Processing ended: Fri Apr 10 04:15:34 2026
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
+
+
